@@ -11,15 +11,21 @@
   #active {
     color: black;
   }
-  #border{
-    border: 2px solid black;
+  #border {
+      font-size: 20px;
+      text-align: -webkit-auto;
+      border-bottom: 5px solid;
+      margin: 0px;
+      padding: 30px;
+      font-family: 'surs', sans-serif;
+      border: 2px solid black;
   }
   body{
     background-image: url("13.jpg");
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 80px;
     text-align: center;
     border-bottom: 2px solid black;
     margin: 0px;
