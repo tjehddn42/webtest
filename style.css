@@ -1,0 +1,48 @@
+<style>
+  body {
+    margin: 0;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  #active {
+    color: black;
+  }
+  #border{
+    border: 2px solid black;
+  }
+  body{
+    background-image: url("13.jpg");
+  }
+
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin: 0px;
+    padding: 30px;
+    font-family: 'Srisakdi', cursive;
+  }
+  h2{
+    text-align: center;
+    margin: 60px;
+  }
+
+  #grid ol {
+    border-right: 2px solid black;
+    width: 100px;
+    margin: 0px;
+    padding: 25px;
+    padding-left: 33px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #article{
+    padding:30px;
+  }
+</style>
